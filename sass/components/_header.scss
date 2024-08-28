@@ -54,6 +54,7 @@
   padding: 0;
   list-style: none;
   font-family: 'DM Serif Display', serif;
+  font-size: 20px;
 }
 
 #burger-nav li a {
@@ -83,7 +84,7 @@
 @media screen and (min-width:768px) {
 
   #main-header{
-    height: 130px;
+    height: 150px;
   }
 
   #main-logo {
@@ -129,6 +130,7 @@
   #main-logo{
     grid-column: 2/3;
     margin-left: 20px;
+    margin-top: 20px;
   }
 
   #main-logo img{
@@ -137,7 +139,7 @@
 
   #main-nav{
     display: block;
-    height: 111px;
+    height: 50px;
     grid-row: 1;
     grid-column-start: 6;
     grid-column-end: 12;
@@ -182,7 +184,7 @@
   }
 
   #main-nav{
-    height: 127px;
+    height: 127px;    
   }
 
   #main-logo img{
