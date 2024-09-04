@@ -403,19 +403,22 @@
     .title-project {
         font-size: 80px;
         color: #D24A20; 
-        opacity: 30%;
         grid-column: 2/7;
-        grid-row: 1;
+        margin-top: 25px;
     }
     
     .p-project {
+        font-size: 20px;
         grid-column: 2/9;
         margin-top: 140px;
     }
     
     .img4 {
+        margin-top: 80px;
         grid-column: 10/12;
-        margin-top: 100px;
+        position: relative;
+        margin-left: 10px;
+        width: 120px;
     }
 
     .project {
@@ -584,6 +587,24 @@
         height: 2200px;
     }
 
+    .title-project {
+        font-size: 105px;
+        margin-top: 40px;
+    }
+
+    .p-project {
+        font-size: 25px;
+        margin-top: 190px;
+    }
+
+    .img4 {
+        grid-column: 10/12;
+        width: 100px;
+        width: 200px;
+        height: 250px;
+    }
+    
+
     .project1 {
         grid-column: 2/7;
     }
@@ -675,11 +696,18 @@
 
         .title-project {
             font-size: 145px;
+            margin-top: 40px;
         }
-
-        .p-project{
-            margin-top: 230px;
-            font-size: 30px;
+    
+        .p-project {
+            font-size: 35px;
+            margin-top: 250px;
+        }
+    
+        .img4 {
+            grid-column: 10/12;
+            width: 250px;
+            height: 350px;
         }
 
         .project {
