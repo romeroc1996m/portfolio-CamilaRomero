@@ -1,6 +1,6 @@
 
 .projectDes {
-    height: 550px;
+    height: 450px;
     background-color: #EDDCBE;
 }
 
@@ -400,6 +400,10 @@
 
    @media screen and (min-width:768px) {
 
+    .projectDes {
+        height: 400px;
+    }
+
     .title-project {
         font-size: 80px;
         color: #D24A20; 
@@ -580,7 +584,7 @@
    @media screen and (min-width:1200px) {
     
     .projectDes {
-        height: 400px;
+        height: 500px;
       }
     
     .project {
